@@ -16,7 +16,7 @@ export const WebsiteData: WebData = {
             {
               title: "UniFi",
               icon: "fa-solid fa-u",
-              url: "http://10.0.0.1/network",
+              url: "https://10.0.0.1/",
             },
             {
               title: "Truenas",
