@@ -51,7 +51,7 @@ export const WebsiteData: WebData = {
             },
             {
               title: "Photos",
-              icon: "https://help-14.github.io/files/icons/jellyfin.svg",
+              icon: "fa-solid fa-aperture",
               url: "https://photos.nhan.pt",
               urlLocal: "http://truenas.local:30041",
             },
