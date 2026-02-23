@@ -51,7 +51,7 @@ export const WebsiteData: WebData = {
             },
             {
               title: "Photos",
-              icon: "fa-solid fa-aperture",
+              icon: "fa-brands fa-pix",
               url: "https://photos.nhan.pt",
               urlLocal: "http://truenas.local:30041",
             },
