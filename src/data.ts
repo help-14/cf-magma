@@ -34,20 +34,26 @@ export const WebsiteData: WebData = {
           title: "Nas",
           data: [
             {
-              title: "jDownloader",
+              title: "Downloader",
               icon: "fa-solid fa-cloud-arrow-down",
-              url: "http://truenas.local:15000",
+              url: "http://truenas.local:16880",
             },
-            {
-              title: "Torrent",
-              icon: "https://help-14.github.io/files/icons/utorrent.svg",
-              url: "http://truenas.local:30038",
-            },
+            // {
+            //   title: "Torrent",
+            //   icon: "https://help-14.github.io/files/icons/utorrent.svg",
+            //   url: "http://truenas.local:30038",
+            // },
             {
               title: "Jellyfin",
               icon: "https://help-14.github.io/files/icons/jellyfin.svg",
               url: "https://phim.nhan.pt",
               urlLocal: "http://truenas.local:30013",
+            },
+            {
+              title: "Photos",
+              icon: "https://help-14.github.io/files/icons/jellyfin.svg",
+              url: "https://photos.nhan.pt",
+              urlLocal: "http://truenas.local:30041",
             },
           ],
         },
@@ -84,6 +90,12 @@ export const WebsiteData: WebData = {
               icon: "https://help-14.github.io/files/icons/svg-viewer.svg",
               url: "https://www.svgviewer.dev",
             },
+            {
+              title: "Radarr",
+              icon: "https://help-14.github.io/files/icons/utorrent.svg",
+              url: "https://radarr.nhan.pt",
+              urlLocal: "http://truenas.local:17878",
+            },
           ],
         },
       ],
@@ -97,22 +109,27 @@ export const WebsiteData: WebData = {
             {
               title: "Facebook",
               icon: "fa-brands fa-facebook",
-              url: "https://www.facebook.com",
+              url: "https://facebook.com",
+            },
+            {
+              title: "Instagram",
+              icon: "fa-brands fa-instagram",
+              url: "https://instagram.com",
             },
             {
               title: "Reddit",
               icon: "fa-brands fa-reddit",
-              url: "https://www.reddit.com",
+              url: "https://reddit.com",
             },
-            {
-              title: "Voz",
-              icon: "https://help-14.github.io/files/icons/voz.svg",
-              url: "https://voz.vn",
-            },
+            // {
+            //   title: "Voz",
+            //   icon: "https://help-14.github.io/files/icons/voz.svg",
+            //   url: "https://voz.vn",
+            // },
             {
               title: "Youtube",
               icon: "fa-brands fa-youtube",
-              url: "https://www.youtube.com",
+              url: "https://youtube.com",
             },
           ],
         },
@@ -127,7 +144,7 @@ export const WebsiteData: WebData = {
             {
               title: "Lazada",
               icon: "fa-solid fa-heart",
-              url: "https://www.lazada.vn/",
+              url: "https://lazada.vn",
             },
             {
               title: "Giang Huy",
