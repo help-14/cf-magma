@@ -28,21 +28,22 @@ export const WebsiteData: WebData = {
               icon: "fa-brands fa-docker",
               url: "http://truenas.local:31014/",
             },
+            {
+              title: "Termix",
+              icon: "fa-solid fa-terminal",
+              url: "http://truenas.local:18080/",
+            },
           ],
         },
         {
           title: "Nas",
           data: [
             {
-              title: "Downloader",
-              icon: "fa-solid fa-cloud-arrow-down",
-              url: "http://truenas.local:16880",
+              title: "Photos",
+              icon: "fa-brands fa-pix",
+              url: "https://photos.nhan.pt",
+              urlLocal: "http://truenas.local:30041",
             },
-            // {
-            //   title: "Torrent",
-            //   icon: "https://help-14.github.io/files/icons/utorrent.svg",
-            //   url: "http://truenas.local:30038",
-            // },
             {
               title: "Jellyfin",
               icon: "https://help-14.github.io/files/icons/jellyfin.svg",
@@ -50,30 +51,10 @@ export const WebsiteData: WebData = {
               urlLocal: "http://truenas.local:30013",
             },
             {
-              title: "Photos",
-              icon: "fa-brands fa-pix",
-              url: "https://photos.nhan.pt",
-              urlLocal: "http://truenas.local:30041",
-            },
-          ],
-        },
-        {
-          title: "Service",
-          data: [
-            {
-              title: "Cloudflare",
-              icon: "https://help-14.github.io/files/icons/cloudflare.svg",
-              url: "https://dash.cloudflare.com",
-            },
-            {
-              title: "Github",
-              icon: "fa-brands fa-github-alt",
-              url: "https://github.com",
-            },
-            {
-              title: "Maps",
-              icon: "fa-solid fa-location-dot",
-              url: "https://www.google.com/maps",
+              title: "Radarr",
+              icon: "https://help-14.github.io/files/icons/utorrent.svg",
+              url: "https://radarr.nhan.pt",
+              urlLocal: "http://truenas.local:17878",
             },
           ],
         },
@@ -91,10 +72,24 @@ export const WebsiteData: WebData = {
               url: "https://www.svgviewer.dev",
             },
             {
-              title: "Radarr",
-              icon: "https://help-14.github.io/files/icons/utorrent.svg",
-              url: "https://radarr.nhan.pt",
-              urlLocal: "http://truenas.local:17878",
+              title: "Downloader",
+              icon: "fa-solid fa-cloud-arrow-down",
+              url: "http://truenas.local:16880",
+            },
+          ],
+        },
+        {
+          title: "Cloud",
+          data: [
+            {
+              title: "Cloudflare",
+              icon: "https://help-14.github.io/files/icons/cloudflare.svg",
+              url: "https://dash.cloudflare.com",
+            },
+            {
+              title: "Github",
+              icon: "fa-brands fa-github-alt",
+              url: "https://github.com",
             },
           ],
         },
@@ -165,6 +160,17 @@ export const WebsiteData: WebData = {
               title: "Epic Games",
               icon: "https://help-14.github.io/files/icons/epic.svg",
               url: "https://store.epicgames.com",
+            },
+          ],
+        },
+
+        {
+          title: "Service",
+          data: [
+            {
+              title: "Maps",
+              icon: "fa-solid fa-location-dot",
+              url: "https://www.google.com/maps",
             },
           ],
         },
