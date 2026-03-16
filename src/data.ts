@@ -169,16 +169,6 @@ export const WebsiteData: WebData = {
           title: "Service",
           data: [
             {
-              title: "Color",
-              icon: "fa-solid fa-palette",
-              url: "https://htmlcolorcodes.com",
-            },
-            {
-              title: "SVG viewer",
-              icon: "https://help-14.github.io/files/icons/svg-viewer.svg",
-              url: "https://www.svgviewer.dev",
-            },
-            {
               title: "Maps",
               icon: "fa-solid fa-location-dot",
               url: "https://www.google.com/maps",
