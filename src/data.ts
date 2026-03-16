@@ -77,6 +77,11 @@ export const WebsiteData: WebData = {
               icon: "fa-solid fa-cloud-arrow-down",
               url: "http://truenas.local:16880",
             },
+            {
+              title: "Explorer",
+              icon: "fa-regular fa-folder-open",
+              url: "http://truenas.local:33000",
+            },
           ],
         },
         {
