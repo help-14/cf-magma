@@ -52,13 +52,13 @@ export const WebsiteData: WebData = {
             },
             {
               title: "Radarr",
-              icon: "fa-solid fa-circle-play",
+              icon: "fa-solid fa-clapperboard",
               url: "https://radarr.nhan.pt",
               urlLocal: "http://truenas.local:17878",
             },
             {
               title: "Sonarr",
-              icon: "fa-solid fa-circle-xmark",
+              icon: "fa-solid fa-tv",
               url: "https://radarr.nhan.pt",
               urlLocal: "http://truenas.local:17979",
             },
