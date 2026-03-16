@@ -52,9 +52,15 @@ export const WebsiteData: WebData = {
             },
             {
               title: "Radarr",
-              icon: "https://help-14.github.io/files/icons/utorrent.svg",
+              icon: "fa-solid fa-circle-play",
               url: "https://radarr.nhan.pt",
               urlLocal: "http://truenas.local:17878",
+            },
+            {
+              title: "Sonarr",
+              icon: "fa-solid fa-circle-xmark",
+              url: "https://radarr.nhan.pt",
+              urlLocal: "http://truenas.local:17979",
             },
           ],
         },
@@ -62,14 +68,9 @@ export const WebsiteData: WebData = {
           title: "Tools",
           data: [
             {
-              title: "Color",
-              icon: "fa-solid fa-palette",
-              url: "https://htmlcolorcodes.com",
-            },
-            {
-              title: "SVG viewer",
-              icon: "https://help-14.github.io/files/icons/svg-viewer.svg",
-              url: "https://www.svgviewer.dev",
+              title: "Torrent",
+              icon: "https://help-14.github.io/files/icons/utorrent.svg",
+              url: "http://truenas.local:30038",
             },
             {
               title: "Downloader",
@@ -167,6 +168,16 @@ export const WebsiteData: WebData = {
         {
           title: "Service",
           data: [
+            {
+              title: "Color",
+              icon: "fa-solid fa-palette",
+              url: "https://htmlcolorcodes.com",
+            },
+            {
+              title: "SVG viewer",
+              icon: "https://help-14.github.io/files/icons/svg-viewer.svg",
+              url: "https://www.svgviewer.dev",
+            },
             {
               title: "Maps",
               icon: "fa-solid fa-location-dot",
