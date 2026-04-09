@@ -75,7 +75,7 @@ export const WebsiteData: WebData = {
             {
               title: "Downloader",
               icon: "fa-solid fa-cloud-arrow-down",
-              url: "http://truenas.local:16880",
+              url: "http://truenas.local:35800",
             },
             {
               title: "Explorer",
