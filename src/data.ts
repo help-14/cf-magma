@@ -28,11 +28,6 @@ export const WebsiteData: WebData = {
               icon: "fa-brands fa-docker",
               url: "http://truenas.local:30328/",
             },
-            {
-              title: "Termix",
-              icon: "fa-solid fa-terminal",
-              url: "http://truenas.local:18080/",
-            },
           ],
         },
         {
@@ -77,10 +72,15 @@ export const WebsiteData: WebData = {
               icon: "fa-solid fa-cloud-arrow-down",
               url: "http://truenas.local:35800",
             },
+            // {
+            //   title: "Explorer",
+            //   icon: "fa-regular fa-folder-open",
+            //   url: "http://truenas.local:33000",
+            // },
             {
-              title: "Explorer",
-              icon: "fa-regular fa-folder-open",
-              url: "http://truenas.local:33000",
+              title: "Termix",
+              icon: "fa-solid fa-terminal",
+              url: "http://truenas.local:18080/",
             },
           ],
         },
