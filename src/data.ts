@@ -37,13 +37,11 @@ export const WebsiteData: WebData = {
               title: "Photos",
               icon: "fa-brands fa-pix",
               url: "https://photos.nhan.pt",
-              urlLocal: "http://truenas.local:30041",
             },
             {
               title: "Jellyfin",
               icon: "https://help-14.github.io/files/icons/jellyfin.svg",
               url: "https://phim.nhan.pt",
-              urlLocal: "http://truenas.local:30013",
             },
             {
               title: "Radarr",
