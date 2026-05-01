@@ -78,7 +78,7 @@ export const WebsiteData: WebData = {
             {
               title: "Termix",
               icon: "fa-solid fa-terminal",
-              url: "http://truenas.local:18080/",
+              url: "https://termix.nhan.pt",
             },
           ],
         },
