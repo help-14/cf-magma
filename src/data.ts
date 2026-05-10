@@ -26,7 +26,7 @@ export const WebsiteData: WebData = {
             {
               title: "Dockhand",
               icon: "fa-brands fa-docker",
-              url: "http://truenas.local:30328/",
+              url: "https://dockhand.nhan.pt",
             },
           ],
         },
@@ -47,13 +47,11 @@ export const WebsiteData: WebData = {
               title: "Radarr",
               icon: "fa-solid fa-clapperboard",
               url: "https://radarr.nhan.pt",
-              urlLocal: "http://truenas.local:17878",
             },
             {
               title: "Sonarr",
               icon: "fa-solid fa-tv",
-              url: "https://radarr.nhan.pt",
-              urlLocal: "http://truenas.local:17979",
+              url: "https://sonarr.nhan.pt",
             },
           ],
         },
